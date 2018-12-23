@@ -1,207 +1,399 @@
-# [Alembic](https://alembic.darn.es/)
-[![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
+# About this Cool Concise Jekyll Blog Theme 🤘🤘🤘
 
-⚗ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
+[![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/network)
+[![GitHub issues](https://img.shields.io/github/issues/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues)
+[![GitHub release](https://img.shields.io/github/release/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/releases)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Gaohaoyang/gaohaoyang.github.io/master/LICENSE)
 
-![Screenshot](https://raw.githubusercontent.com/daviddarnes/alembic/master/screenshot.png)
+**[中文版 Chinese README 请点击这里 🇨🇳](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/README-zh-cn.md)**
 
-## Contents
-- [About](#about)
-- [Features](#features)
-- [Examples](#examples)
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [Gem dependency settings](#gem-dependency-settings)
-  - [Site settings](#site-settings)
-  - [Site navigation](#site-navigation)
-- [Using includes](#using-includes)
-- [Page layouts](#page-layouts)
-- [Page and Post options](#page-and-post-options)
-- [Credits](#credits)
+With the escalation of jekyll version, but I also want to reconstruct my older blog theme, so I did reconstruction and added some features recently. My new blog theme will still be stored in this repository. I will also use this theme in the future. Now I have done basically, then I will focus on issues that users opend to make theme better.
 
-## About
+**My Blog Url: [http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)**. If you like this theme, you can give me a star to encourage me. Welcome everyone to use it.
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+## Content
 
-## Features
+* [Preview](#preview)
+* [Page Details](#page-details)
+    * [Home](#home)
+    * [Archives](#archives)
+    * [Categories](#categories)
+    * [Tags](#tags)
+    * [Collections](#collections)
+    * [Demo](#demo)
+    * [About](#about)
+    * [Comments](#comments)
+    * [Post Contents](#post-contents)
+    * [Code Highlight](#code-highlight)
+    * [Light Shadow](#light-shadow)
+    * [Mobile Adaptation](#mobile-adaptation)
+    * [Footer](#footer)
+    * [Statistical Analysis](#statistical-analysis)
+* [Usage](#usage)
+    * [1. Install ruby and jekyll environment](#1-install-ruby-and-jekyll-environment)
+    * [2. Copy theme code](#2-copy-theme-code)
+    * [3. Change parameter](#3-change-parameter)
+        * [Basic info](#basic-info)
+        * [Link info](#link-info)
+        * [Comments info](#comments-info)
+        * [Statistical analysis info](#statistical-analysis-info)
+    * [4. Write post](#4-write-post)
+    * [5. Local launch](#5-local-launch)
+    * [6. Push to GitHub](#6-push-to-github)
+* [Donate](#donate)
+* [Update Log](#update-log)
+* [License](#license)
 
-- Available as a starter kit or as [Jekyll 3.3 theme gem](http://jekyllrb.com/docs/themes/)
-- Tested in all major browsers, that includes IE as well as Edge
-- Extensive set of shortcodes to include various elements; such as buttons, icons, figure images and more
-- Solid typographic framework from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Easily interchangeable sidebar
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- Contact form built in using [Formspree](https://formspree.io/)
-- Works on [GitHub Pages](https://pages.github.com/) out of the box
-- Built with [Jekyll](https://jekyllrb.com/) 3.3
-- Designed with [Siteleaf](http://www.siteleaf.com/) in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
+## Preview
 
-## Examples
+First of all, let's see previews.
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
+Index Page
+![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
 
-- [bitpodcast.com](https://bitpodcast.com/)
-- [katiesimonemusic.com](http://katiesimonemusic.com/)
-- [joelcagedesign.com](https://joelcagedesign.com/)
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](http://case2111.github.io/)
-- [www.10people.co.uk](http://www.10people.co.uk/)
+Post Page
+![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
 
-## Installation
+## Page Details
 
-### As a Boilerplate / Fork
+### Home
 
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
-3. Delete the `demo/` folder and `screenshot.png` files
-4. Change the `CNAME` record to your projects' record
-5. Install bundler with `$ gem install bundler`
-6. Install gems with `$ bundle install`
-7. Run Jekyll with `$ bundle exec jekyll serve --watch`
-8. Begin hacking for your project
+Index page show 5 posts excerpt as a default. Readers can click article title or read more button to see full post. There are recent posts area, categories area and tags area at the right part of the index page. You can also add an area at this part, if you change the file `index.html`.
 
-### As a Jekyll 3.3 theme gem
+### Archives
 
-1. Download the starter `/demo` content, [quick download link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/daviddarnes/alembic/tree/master/demo)
-2. Install bundler with `$ gem install bundler`
-3. Install gems with `$ bundle install`
-4. Run Jekyll with `$ bundle exec jekyll serve --watch`
-5. Begin hacking for your project
+Archive post according to the year.
 
-### Boilerplate & Theme differences
+### Categories
 
-The boilerplate kit is better for more drastic hacking and changes, a project that's quite different to any other and needs a lot of custom work done. Additionally you'll only be able to use this method if you want to host it on GitHub Pages, as [themes can't be submitted](https://pages.github.com/themes/)... yet.
+Show posts according to the category.
 
-Using the theme will allow you to receive updates made and will be more programmatic. To make your own changes you'll need to overwrite the files with your own. For example: If I want to change the colours of my site I'll need to copy the [`_colors.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_colors.scss) file and create my own in `_sass/colors.scss` with my own changes. This is the same for all files within the theme, which means your own project will be more lean than if you were to use the boilerplate.
+### Tags
 
-## Configuration
+Show posts according to the tags.
 
-There's a number of settings you'll need to change before you can start hacking away at files. Here's a run down of what you'll need to change:
+### Collections
 
-### Gem dependency settings
-`twitter`, `author` and `social` values will need to be changed to the projects' social information or removed. Look for the `Gem settings` comment within the `/_config.yml` file. These values are for the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) - follow the link to find out more.
+The user can collect their favorite article links with `markdown` syntax.
 
-### Site settings
-You'll need to change the `description`, `title` and `url` to match with the project. You'll also need to replace the `/assets/placeholder-logo.svg` `/assets/placeholder-social.png` with project logo and default social image. The `email` needs to be changed to the email you want to receive contact form enquires with. The `disqus` value should be changed to your project username on [Disqus](https://disqus.com). Look for the `Site settings` comment within the `/_config.yml` file. The `repo` setting is optional, for now, and can be removed entirely, if you wish.
+### Demo
 
-### Site navigation
-There are 3 different navigation types: one for the header, one for the footer and one for a set of social links shown in the aside (or sidebar). If the header or footer navigation are removed, they will fallback to a list of pages within the site. The `social_navigation` properties should either be one that is already in the list (so `Twitter` or `Facebook`) or simply `link`, This is so an icon can be set for the link. Look for the `Site navigation` comment within the `/_config.yml` file.
+I use *[Masonry](http://masonry.desandro.com/)* to rewrite the waterfall responsive layout. Better interactive experience.
 
-## Using includes
+### About
 
-There are 2 main types of includes: ones designed for the site and ones that are designed as shortcodes. Here are a list of the shortcode includes:
+The user can write some introduction about theirselves and their site with `markdown` syntax.
 
-### `button.html`
-A button that can link to a page of any kind.
+### Comments
 
-Example usage: `{% include button.html text="I'm a button" link="https://daviddarnes.com" %}`
+This theme supports both [disqus](https://disqus.com/) and [多说评论 duoshuo comments](http://duoshuo.com/). It's very easy to config your comments module.
 
-Available options:
-- `text`: The text of the button _required_
-- `link`: The link that the button goes to _required_
-- `icon`: The icon that is added to the end of the button text
-- `color`: The color of the button
+The only thing you need do is to change the `short_name` in the file `_config.yml`. As follows.
 
-### `figure.html`
-An image with optional caption.
-
-Example usage: `{% include figure.html image="/uploads/feature-image.jpg" caption="Check out my photo" %}`
-
-Available options:
-- `image`: The image shown _required_
-- `caption`: A caption to explain the image
-- `position`: The position of the image. `left`, `right` or `full`
-
-### `icon.html`
-An icon.
-
-Example usage: `{% include icon.html id="twitter" %}`
-
-Available options:
-- `id`: The reference for the icon _required_
-- `title`: The accessible label for the icon
-- `color`: The desired colour of the icon
-
-### `nav-share.html`
-A set of buttons that share the current page to various social networks, which is controlled within the `_config.yml` file under the `sharing_links` keyword.
-
-Example usage: `{% include nav-share.html %}`
-
-Available options:
-``` yml
-Twitter: "#1DA1F2"
-facebook: "#3B5998"
-Google+: "#DC4E41"
-Pinterest: "#BD081C"
-LinkedIn: "#0077B5"
-tumblr: "#36465D"
-Reddit: "#FF4500"
-Hacker News: "#ff6600"
-Designer News: "#2D72D9"
-Email: ""
+```yml
+# comments
+# two ways to comment, only choose one, and use your own short name
+duoshuo_shortname: #xxx
+disqus_shortname: xxx
 ```
 
-_The first item is the name of the network (must be one of the ones stated above) and the second is the colour of the button. To remove a button just remove the line of the same name._
+### Post Contents
 
-### `video.html`
-A YouTube video.
+The post contents is fixed at the right side while page is scrolling. There will be a scroll bar on contents while it is outside the window height.
 
-Example usage: `{% include video.html id="zrkcGL5H3MU" %}`
+### Code Highlight
 
-Available options:
-- `id`: The YouTube ID for the video _required_
+While the jekyll is update to 3.x.x, you can use github flavored markdown to write code.
 
-### `map.html`
-A Google map. _See Google [My Maps](https://www.google.com/mymaps)_
+More info to see [syntax-highlighter-changed](https://jekyllrb.com/docs/upgrading/2-to-3/#syntax-highlighter-changed).
 
-Example usage: `{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" %}`
+### Light Shadow
 
-Available options:
-- `id`: The map ID for the video _required_
+![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
 
-### `site-form.html`
-Adds a contact form to the page.
+You can see the white shadow on the current item in the navbar. I call this light shadow.
 
-Example usage: `{% include site-form.html %}`
+### Mobile Adaptation
 
-This include has no options. Use the `email` option in the `/_config.yml` to change to the desired email.
+Of course, I have done a very good mobile adaptation.
 
-### `site-search.html`
-Adds a search form to the page.
+![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
 
-Example usage: `{% include site-search.html %}`
+### Footer
 
-This include has no options. This include will add a block of javascript to the page and javascript reference in order for the search field to work correctly.
+**Welcome to use this blog theme, but please keep the theme author info at footer.** Theme designed by [HyG](https://github.com/gaohaoyang).
 
-## Page layouts
+![footer](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bepd8002j20hl02ct95.jpg)
 
-As well as `page`, `post`, `blog`, there are a few alternative layouts that can be used on pages:
+### Statistical Analysis
 
-- `page-aside-left`: Places the aside (sidebar) to the left of the content
-- `home`: Removes the aside entirely, leaving the full width for the main content (typically used for home page designs)
-- `categories`: Shows all posts grouped by category, with an index of categories in a left hand sidebar
-- `search`: Adds a search field to the page as well as a simplified version of the sidebar to allow more focus on the search results
+This theme supports Google Analytics and Baidu Statistics， you can just config the id in the file `_config.yml`, as follows.
 
-## Page and Post options
+```yml
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: xxxxxxxxxxxx
+google_analytics_id: UA-xxxxxxxx # google 分析追踪id
+```
 
-There are some more specific options you can apply when creating a page or a post:
+## Usage
 
-- `comments: false`: Turns off comments for that post
-- `feature_image: "/uploads/feature-image.jpg"`: Adds a full width feature image at the top of the page
-- `feature_text: "Example text"`: Adds text to the top of the page as a full width feature with solid colour; supports markdown. This can be used in conjunction with the `feature_image` option to create a feature image with text over it
-- `indexing: false`: Adds a `noindex` meta element to the `<head>` to stop crawler bots from indexing the page, used on the 404 page
+Welcome everyone to use this theme, this part shows introduction to use.
 
-> **Note:** The Post List Page options are actually in the collection data within the `_config.yml` file.
+### 1. Install ruby and jekyll environment
 
-## Credits
+This step and Step 5 mainly talk to you how to launch blog at local. If you don't want to launch at local, you can ignore these 2 steps. But I still strongly suggest to do this. Ensure there is nothing wrong before pushing to the github.
 
-- Thanks to [Simple Icons](https://simpleicons.org/) for providing the brand icons, by [Dan Leech](https://twitter.com/bathtype)
-- Thanks to [Sassline](https://sassline.com/) for the typographic basis, by [Jake Giltsoff](https://twitter.com/jakegiltsoff)
-- Thanks to [Flexbox mixin](https://github.com/mastastealth/sass-flex-mixin) by [Brian Franco](https://twitter.com/brianfranco)
-- Thanks to [Normalize](https://necolas.github.io/normalize.css/) by [Nicolas Gallagher](https://twitter.com/necolas) and [Jonathan Neal](https://twitter.com/jon_neal).
-- Thanks to [pygments-css](http://richleland.github.io/pygments-css/) for the autumn syntax highlighting, by [Rich Leland](https://twitter.com/richleland)
+The Windows users can directly use [RubyInstaller](http://rubyinstaller.org/) to install ruby environment. Follow the prompts while installing.
+
+Install jekyll commands:
+
+```
+gem install jekyll
+```
+
+For more details, you can view the jekyll official website. [https://jekyllrb.com/](https://jekyllrb.com/)
+
+There may be something wrong at mac OS X El Capitan, you can see the solution at [https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011]( https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011).
+
+If you are interesting in jekyll, you can see the jekyll source code at [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
+
+![jekyll logo](http://jekyllcn.com/img/logo-2x.png)
+
+### 2. Copy theme code
+
+You can clone, download or fork this repo.
+
+### 3. Change parameter
+
+Mainly change the parameters at file `_config.yml` and use your own `favicon.ico`.
+
+#### Basic info
+
+Shows at site header part.
+
+```yml
+# Site settings
+title: HyG
+brief-intro: Front-end Dev Engineer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
+```
+
+#### Link info
+
+Mainly shows at the footer of the site.
+
+```yml
+# other links
+twitter_username: gaohaoyang126
+facebook_username: gaohaoyang.water
+github_username:  Gaohaoyang
+email: gaohaoyang126@126.com
+weibo_username: 3115521wh
+zhihu_username: gaohaoyang
+linkedIn_username: gaohaoyang
+dribbble_username:
+
+description_footer: 本站记录我前端之旅的沿途风景！
+```
+
+#### Comments info
+
+Get your own `short_name`:
+
+Visit https://disqus.com/ or http://duoshuo.com/. And follow the prompts at the site.
+
+```yml
+# comments
+# two ways to comment, only choose one, and use your own short name
+duoshuo_shortname: #hygblog
+disqus_shortname: xxxx
+```
+
+When you done, you can also see the comments info at disqus or duoshuo admin console.
+
+#### Statistical analysis info
+
+Get Google Analytics id or Baidu Statistics id：
+
+Visit https://www.google.com/analytics/ or http://tongji.baidu.com/. And follow the prompts at the site.
+
+Of course, if you don't want any statistical and analysis info, you can type nothing at id position.
+
+```yml
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: cf850xxxxxxxxxxxxxxxx
+google_analytics_id: UA-7xxxxxx-4 # google 分析追踪id
+```
+
+When you done, you can see UV, PV, location etc. info at your own Google Analytics or Baidu Statistic console.
+
+### 4. Write post
+
+You can write posts at folder `_posts`. At the beginning of the post, you should declare layout、title、date、categories、tags、author(optional) info、mathjax(optional，click [here](https://www.mathjax.org/) for more detail about `Mathjax`).
+
+```
+---
+layout: post
+title:  "对这个 jekyll 博客主题的改版和重构"
+date:   2016-03-12 11:40:18 +0800
+categories: jekyll
+tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
+author: Haoyang Gao
+mathjax: true
+---
+```
+
+These follow code is for making contents.
+```
+* content
+{:toc}
+```
+
+You can use 4 wraps as a excerpt separator. The words before separator as excerpt show in the index page. When you enter the post page, you can read full article.
+
+The wraps config is in the file `_config.yml`, as follows:
+
+```yml
+# excerpt
+excerpt_separator: "\n\n\n\n"
+```
+
+You should use markdown syntax to write article, just like write readme in github.
+
+You can use 3 \`\`\` to write code block.
+
+### 5. Local launch
+
+use command:
+
+```
+jekyll s
+```
+
+Terminal shows:
+
+```
+Configuration file: E:/GitWorkSpace/blog/_config.yml
+            Source: E:/GitWorkSpace/blog
+       Destination: E:/GitWorkSpace/blog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 6.33 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'E:/GitWorkSpace/blog'
+Configuration file: E:/GitWorkSpace/blog/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
+
+Visit localhost:4000 to see your blog!!!
+
+### 6. Push to GitHub
+
+If there is nothing wrong, push code to your github!
+
+## Donate
+
+You can also donate me for a coffee, and I'll do better. Thanks.
+
+|                                                                     PayPal                                                                     |                                 Wechat Pay                                  |                                   Alipay                                    |
+|:----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
+| [![PayPal](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)<br>Donate via PayPal ](https://www.paypal.me/gaohaoyang) | ![wechat](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bkdw3bslj206z06q3z6.jpg) | ![alipay](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bk8ikzoij20740743z5.jpg) |
+
+
+Thanks these friends!!!
+
+* 2017.07.02 received Wechat user ¥9.99
+* 2017.06.20 received Wechat user ¥2.22
+* 2017.06.19 received Wechat user ¥6.66
+* 2017.05.25 received Wechat user ¥1.00
+* 2017.05.19 received 风之筝 ¥6.66
+* 2017.05.16 received 张驰 ¥6.00
+* 2017.05.03 received 希成 ¥6.66
+* 2017.04.24 received deezer ¥10.00
+* 2017.04.13 received Abraham Xiao ¥30.00
+* 2017.04.11 received Wechat user ¥4.00
+* 2017.04.01 received Elvin Zeng ¥6.66
+* 2017.03.13 received Wechat user ¥6.66
+* 2017.03.04 received 史莱姆 ¥9.90
+* 2017.03.02 received 梦想小熊 ¥6.66
+* 2017.02.27 received 夏友杰 ¥6.66
+* 2017.02.26 received 兰缘小妖 ¥10.00
+* 2017.02.25 received Wechat user ¥6.66
+* 2017.02.22 received Wechat user ¥6.66
+* 2017.02.15 received Wechat user ¥10.00
+* 2017.02.06 received Light ¥10.24
+* 2017.01.15 received Wechat user ¥6.66
+* 2016.12.17 received HitNoah ¥12.00
+* 2016.12.09 received 情融 ¥6.60
+* 2016.11.25 received Wechat user ¥6.66
+* 2016.11.16 received Wechat user ¥1.00
+* 2016.10.24 received 奇峰 ¥6.66
+* 2016.10.21 received 旭廷 ¥10.00
+* 2016.09.25 received 鑫 ¥6.66
+* 2016.08.25 received Erlend Aakre $2.50
+* 2016.08.10 received Wechat user ¥4.40
+* 2016.07.25 received 邓炳初 ¥6.66
+* 2016.07.11 received 彦风 ¥6.66
+* 2016.07.07 received Klci ¥2.50
+* 2016.05.08 received 1057 ¥10.57
+* 2016.05.07 received 吴林 ¥2
+* 2016.04.29 received 北归 ¥10
+* 2016.04.28 received 魏楚阳_Brian ¥2
+* 2016.04.28 received 薛彬 ¥8.8
+
+
+## Update Log
+
+### 2017.2.28
+
+- `[^]` fix smoothScroll bug in Tencent webview like wechat and qq.  [#22](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/22), [#48](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/48)
+
+### 2016.6.20
+
+* `[+]` Add next post and previous post link in post page.
+* `[^]` Change the sort of font-family to avoid full-width half-width characters mistake.
+* `[^]` Fix bug in tags cloud when division by zero. [#26](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/26), [#28](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/28), [#30](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/30)
+
+### 2016.5.11 v2.0.1
+
+* `[^]` Optimized code, Extracting common code to `comments.html`
+* `[+]` Add Google Analysis and Baidu Statistics
+* `[+]` Update README, add usage
+* `[+]` Add `favicon.ico`
+* `[^]` Fix bug at contents
+* `[^]` Change the content scroll bar CSS style（Only for `webkit` browser kernel）
+* `[^]` Change tag a color at demo page
+* `[+]` Add busuanzi counter, show the views count at footer
+* `[+]` Add back to top button
+
+### 2016.4.27 v2.0.0
+
+* `[^]` Rewrite all codes based on jekyll 3.1.2
+* `[+]` Add excerpt at index page
+* `[+]` Add recently post, categories and tags cloud at index page
+* `[+]` Add light shadow at navbar
+* `[+]` Add archives, categories, tags page
+* `[+]` Add collections page
+* `[+]` Add comments plugin with disqus or duoshuo
+* `[+]` Mobile Adaptation
+* `[+]` Fix post contents to the right side while scrolling page
+* `[+]` Fix footer at the bottom when page height is smaller than window height
+* `[^]` Use github flavored markdown to write code block(Fenced code blocks)
+* `[^]` Rewrite the demo page with Masonry
+* `[-]` Remove jQuery and BootStrap
+
+About my old blog theme, I won't maintain any more. And I put the code at  [Gaohaoyang/old-blog](https://github.com/Gaohaoyang/old-blog).
+
+## License
+
+[MIT License](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/LICENSE.md)
