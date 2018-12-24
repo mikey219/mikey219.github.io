@@ -48,6 +48,7 @@ Example:
 ### 3.1 静态初始化
 	String cats[] = new String[] {"Tom","Sam","Mimi"};    
  	String dogs[] = {"Jimmy","Gougou","Doggy"}  
+
 ### 3.2 动态初始化
 	String books[] = new String[2];  
 	books[0] = "Thinking in Java";  
