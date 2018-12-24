@@ -3,7 +3,7 @@ layout: post
 title:  "TwoSum"
 date:   2018-01-01 15:14:54
 categories: leetcode
-tags: leetcode
+tags: leetcode algorithm java
 excerpt: 
 mathjax: true
 ---
@@ -16,6 +16,10 @@ You may assume that each input would have exactly one solution, and you may not 
 Example:
 >Given nums = [2, 7, 11, 15], target = 9,
 >Because nums[0] + nums[1] = 2 + 7 = 9,return [0, 1].
+
+
+
+
 
 ## 2.Sulution
 因为题目中没有涉及说是有序数组，所以想到的就是循环遍历，看是否满足题设返回即可。
@@ -39,7 +43,7 @@ Example:
 
 ## 3.Java数组初始化
 ### 3.1 静态初始化
-`String cats[] = new String[] {"Tom","Sam","Mimi"}; `
+`String cats[] = new String[] {"Tom","Sam","Mimi"}; `  
 `String dogs[] = {"Jimmy","Gougou","Doggy"}`
 ### 3.2 动态初始化
 	String books[] = new String[2];  
