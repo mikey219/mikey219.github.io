@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TwoSum"
+title:  "PalindromeNumber"
 date:   2018-01-19 15:14:54
 categories: leetcode
 tags: leetcode algorithm java
@@ -10,6 +10,11 @@ mathjax: true
 
 ## 1.Description
 Determine whether an integer is a palindrome. Do this without extra space.
+
+
+
+
+
 
 ## 2.Solution
 首先需要注意的是：负数不是回文数。
