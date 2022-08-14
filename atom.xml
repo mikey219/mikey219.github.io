@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mikey219.github.io/"/>
-  <updated>2022-08-12T09:14:55.366Z</updated>
+  <updated>2022-08-14T13:41:34.993Z</updated>
   <id>https://mikey219.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>搭建Blog流程</title>
+    <link href="https://mikey219.github.io/da-jian-blog-liu-cheng.html"/>
+    <id>https://mikey219.github.io/da-jian-blog-liu-cheng.html</id>
+    <published>2022-08-14T13:02:43.000Z</published>
+    <updated>2022-08-14T13:41:34.993Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;1-博客搭建流程资料&quot;&gt;&lt;a href=&quot;#1-博客搭建流程资料&quot; class=&quot;headerlink&quot; title=&quot;1. 博客搭建流程资料&quot;&gt;&lt;/a&gt;1. 博客搭建流程资料&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Tool" scheme="https://mikey219.github.io/categories/Tool/"/>
+    
+    
+      <category term="Blog" scheme="https://mikey219.github.io/tags/Blog/"/>
+    
+      <category term="Hexo" scheme="https://mikey219.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>VMware 安装 CentOS 8.1 完整教程 </title>
     <link href="https://mikey219.github.io/vmware-an-zhuang-centos-8-1-wan-zheng-jiao-cheng.html"/>
     <id>https://mikey219.github.io/vmware-an-zhuang-centos-8-1-wan-zheng-jiao-cheng.html</id>
     <published>2020-03-05T10:29:16.000Z</published>
-    <updated>2022-08-12T09:14:55.366Z</updated>
+    <updated>2022-08-14T13:10:44.197Z</updated>
     
     <summary type="html">
     
