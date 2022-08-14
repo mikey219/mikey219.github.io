@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shawlon`s Blog</title>
+  
+  <subtitle>Yshawlon</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://mikey219.github.io/"/>
+  <updated>2022-08-12T09:14:55.366Z</updated>
+  <id>https://mikey219.github.io/</id>
+  
+  <author>
+    <name>Tyzhao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VMware 安装 CentOS 8.1 完整教程 </title>
+    <link href="https://mikey219.github.io/vmware-an-zhuang-centos-8-1-wan-zheng-jiao-cheng.html"/>
+    <id>https://mikey219.github.io/vmware-an-zhuang-centos-8-1-wan-zheng-jiao-cheng.html</id>
+    <published>2020-03-05T10:29:16.000Z</published>
+    <updated>2022-08-12T09:14:55.366Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我使用的&lt;font color=&quot;red&quot; size=&quot;3&quot;&gt;VMware&lt;/font&gt;版本：&lt;font color=&quot;red&quot; size=&quot;3&quot;&gt;VMware 15 Pro&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;镜像：&lt;font color=&quot;red&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://mikey219.github.io/categories/Linux/"/>
+    
+    
+      <category term="VMware" scheme="https://mikey219.github.io/tags/VMware/"/>
+    
+      <category term="CentOS" scheme="https://mikey219.github.io/tags/CentOS/"/>
+    
+  </entry>
+  
+</feed>
