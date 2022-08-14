@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Shawlon`s Blog</title>
+  <title>mikey219`s Blog</title>
   
-  <subtitle>Yshawlon</subtitle>
+  <subtitle>football</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mikey219.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://mikey219.github.io/</id>
   
   <author>
-    <name>Tyzhao</name>
+    <name>mikey219</name>
     
   </author>
   

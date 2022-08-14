@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mikey219.github.io/categories/index.html</loc>
-    
-    <lastmod>2022-08-12T09:14:55.367Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://mikey219.github.io/contact/index.html</loc>
     
     <lastmod>2022-08-12T09:14:55.367Z</lastmod>
@@ -17,6 +10,13 @@
   
   <url>
     <loc>https://mikey219.github.io/friends/index.html</loc>
+    
+    <lastmod>2022-08-12T09:14:55.367Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mikey219.github.io/categories/index.html</loc>
     
     <lastmod>2022-08-12T09:14:55.367Z</lastmod>
     
@@ -37,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://mikey219.github.io/archives/index.html</loc>
+    <loc>https://mikey219.github.io/about/index.html</loc>
     
     <lastmod>2022-08-12T09:14:55.366Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mikey219.github.io/about/index.html</loc>
+    <loc>https://mikey219.github.io/archives/index.html</loc>
     
     <lastmod>2022-08-12T09:14:55.366Z</lastmod>
     
