@@ -8,7 +8,7 @@
       <link href="/da-jian-blog-liu-cheng.html"/>
       <url>/da-jian-blog-liu-cheng.html</url>
       
-        <content type="html"><![CDATA[<h4 id="1-博客搭建流程资料"><a href="#1-博客搭建流程资料" class="headerlink" title="1. 博客搭建流程资料"></a>1. 博客搭建流程资料</h4><ul><li><a href="https://github.com/MUYIio/hexo-themes-matery" target="_blank" rel="noopener">github模板</a></li><li><a href="https://zhuanlan.zhihu.com/p/111614119" target="_blank" rel="noopener">知乎专栏</a></li></ul><h4 id="2-使用方式"><a href="#2-使用方式" class="headerlink" title="2. 使用方式"></a>2. 使用方式</h4><ul><li>创建新文章(会在hexo目录下生成xxx.md和xxx目录，xxx目录用于存放图片)<br> <code>$ hexo new post xxx</code></li><li>生成<br> <code>$ hexo g</code>  </li><li>预览<br> <code>$ hexo s</code>  </li><li>发布到github<br> <code>$ hexo d</code>  </li></ul>]]></content>
+        <content type="html"><![CDATA[<h4 id="1-博客搭建流程资料"><a href="#1-博客搭建流程资料" class="headerlink" title="1. 博客搭建流程资料"></a>1. 博客搭建流程资料</h4><ul><li><a href="https://github.com/MUYIio/hexo-themes-matery" target="_blank" rel="noopener">github模板</a>   </li><li><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">github模板readme</a>  </li><li><a href="https://zhuanlan.zhihu.com/p/111614119" target="_blank" rel="noopener">知乎专栏</a></li></ul><h4 id="2-使用方式"><a href="#2-使用方式" class="headerlink" title="2. 使用方式"></a>2. 使用方式</h4><ul><li>创建新文章(会在hexo目录下生成xxx.md和xxx目录，xxx目录用于存放图片)<br> <code>$ hexo new post xxx</code></li><li>生成<br> <code>$ hexo g</code>  </li><li>预览<br> <code>$ hexo s</code>  </li><li>发布到github<br> <code>$ hexo d</code>  </li></ul>]]></content>
       
       
       <categories>
